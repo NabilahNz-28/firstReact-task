@@ -58,7 +58,7 @@ To run this project on your local machine, follow these steps:
 
 I'm always open to discussing new opportunities, web development, or collaborating on interesting projects. 
 
-[LinkedIn](https://www.linkedin.com/in/your-profile) • [Portfolio](https://yourportfolio.com) • [Email](mailto:your.email@example.com)
+ [Email](mailto:nabilahnurzkiyyah@gmail.com) 
 
 ---
 *This project was built to showcase modern React development skills.*
