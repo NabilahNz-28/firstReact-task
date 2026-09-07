@@ -2,7 +2,9 @@
 
 A modern, responsive, and feature-rich Todo List application built with React, TypeScript, and Vite. This project demonstrates proficiency in modern frontend development practices, state management, and user interface design.
 
-![Task Board Preview](./public/preview.png) *(Note: You can add a screenshot of the app here later)*
+![Task Board Preview]
+<img width="1917" height="934" alt="image" src="https://github.com/user-attachments/assets/bb0536ff-21a0-4c73-9ae5-9c74c88dfd3b" />
+
 
 ## 🚀 Features
 
@@ -35,7 +37,7 @@ To run this project on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/NabilahNz-28/firstReact-task.git
     cd your-repo-name
     ```
 
