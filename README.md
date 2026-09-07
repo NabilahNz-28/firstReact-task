@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# Task Board - React TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and feature-rich Todo List application built with React, TypeScript, and Vite. This project demonstrates proficiency in modern frontend development practices, state management, and user interface design.
 
-Currently, two official plugins are available:
+![Task Board Preview](./public/preview.png) *(Note: You can add a screenshot of the app here later)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+*   **Task Management:** Create, read, update, and delete (CRUD) tasks seamlessly.
+*   **Priority Levels:** Categorize tasks by priority (Low, Medium, High) with visual indicators.
+*   **State Persistence:** Data is automatically saved to the browser's `localStorage`, ensuring tasks remain available even after refreshing the page.
+*   **Filtering:** Filter tasks by their status (All, Active, Completed) for better organization.
+*   **Inline Editing:** Double-click on any task text to quickly edit it inline.
+*   **Modern UI/UX:** Features a sleek dark mode design with glassmorphism elements, smooth animations, and a responsive layout that works across devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies & Tools
 
-## Expanding the Oxlint configuration
+This project was built leveraging the following modern web technologies:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+*   **[React 18](https://react.dev/):** Utilized Functional Components and React Hooks (`useState`, `useEffect`, `useCallback`, `useRef`) for robust state and lifecycle management.
+*   **[TypeScript](https://www.typescriptlang.org/):** Employed strict typing and interfaces to ensure code quality, catch errors at compile-time, and improve developer experience.
+*   **[Vite](https://vitejs.dev/):** Used as the build tool for an extremely fast development server and optimized production build.
+*   **Vanilla CSS:** Styled completely with custom CSS, demonstrating a deep understanding of CSS Grid/Flexbox, animations, variables, and responsive design principles without relying on external UI libraries.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🧠 Technical Highlights
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+*   **Custom Hooks:** Abstracted complex state logic into a reusable `useTodos` hook, promoting separation of concerns and cleaner component code.
+*   **Type Safety:** Comprehensive TypeScript definitions ensure data consistency across components and helper functions.
+*   **Performance Optimization:** Strategic use of `useCallback` to prevent unnecessary re-renders of child components.
+*   **Accessibility (a11y):** Implemented semantic HTML, ARIA labels, and keyboard navigation support (e.g., submitting edits via 'Enter', canceling via 'Escape').
+
+## 💻 Running Locally
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser:**
+    Navigate to `http://localhost:5173/` to view the application.
+
+## 🤝 Let's Connect
+
+I'm always open to discussing new opportunities, web development, or collaborating on interesting projects. 
+
+[LinkedIn](https://www.linkedin.com/in/your-profile) • [Portfolio](https://yourportfolio.com) • [Email](mailto:your.email@example.com)
+
+---
+*This project was built to showcase modern React development skills.*
